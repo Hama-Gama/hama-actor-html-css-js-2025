@@ -1,0 +1,51 @@
+// Заголовки, общие БЄМ блоки и прочее...
+
+//title ========================================================================================================================================================
+.title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	@include adaptiveValue("column-gap", 20, 10);
+	@include adaptiveValue("font-size", 20, 15);
+	line-height: 200%;
+	color: $mainColor;
+	letter-spacing: toRem(5);
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	@include adaptiveValue("margin-top", 30, 20);
+	@include adaptiveValue("margin-bottom", 30, 20);
+	position: relative;
+	&::after{
+		content: "";
+		height: toRem(1);
+		width: 100%;
+		background-color: $mainColor;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	}
+}
+//========================================================================================================================================================
+.button{
+	display: inline-flex;
+	background-color: transparent;
+	border: 0.5px solid $mainColor;
+	padding: toRem(15) toRem(30);
+	border-radius: toRem(5);
+	font-size: toRem(14);
+	line-height: 1.2;
+	letter-spacing: 2px;
+	box-shadow: rgba(255, 255, 255, 0.3) 0px 2px 8px 0px;
+	text-transform: uppercase;
+	@media (any-hover: hover){
+		&:hover{
+			border: 1px solid orangered;
+		}
+	}
+}
+
+// section ==================================
+section:not(:first-child) {
+	@include adaptiveValue("margin-bottom", 80, 70);
+}

@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+	@@include('html/_head.htm',{ "title":"HomePage" })
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<section
+					data-watch-threshold="0.5"
+					data-watch
+					data-watch="navigator"
+					class="home"
+				>
+					<div class="home__container">
+						<!-- Оболочка слайдера -->
+						<div class="home__slider swiper">
+							<!-- Движущаяся часть слайдера -->
+							<div class="home__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<!-- Slide #1 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/1.jpg" alt="image" />
+								</div>
+								<!-- Slide #2 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/2.jpg" alt="image" />
+								</div>
+								<!-- Slide #3 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/3.jpg" alt="image" />
+								</div>
+								<!-- Slide #4 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/4.jpg" alt="image" />
+								</div>
+								<!-- Slide #5 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/5.jpg" alt="image" />
+								</div>
+								<!-- Slide #6 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/6.jpg" alt="image" />
+								</div>
+								<!-- Slide #7 -->
+								<div class="home__slide swiper-slide">
+									<img src="@img/top-slider/7.jpg" alt="image" />
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+				<section
+					data-watch-threshold="0.5"
+					data-watch
+					data-watch="navigator"
+					class="info"
+				>
+					<div class="info__container">
+						<div class="info__title-body"></div>
+						<ul class="info__list">
+							<li class="info__item">ФИО<span>Хамит Аркаев</span></li>
+							<li class="info__item">Дата рождения<span>11.10.1985</span></li>
+							<li class="info__item">Рост<span>180см</span></li>
+							<li class="info__item">Вес<span>65кг</span></li>
+							<li class="info__item">Пол<span>мужской</span></li>
+							<li class="info__item">Гражданство<span>Казахстан</span></li>
+							<li class="info__item">Телосложение<span>худощавое</span></li>
+						</ul>
+					</div>
+				</section>
+				<section
+					data-watch-threshold="0.5"
+					data-watch
+					data-watch="navigator"
+					class="gallery"
+				>
+					<div class="gallery__container">
+						<h2 class="gallery__title title">Фото</h2>
+						<div data-gallery class="gallery__images">
+							<a href="@img/gallery/1a.jpg" class="gallery__image">
+								<img
+									alt="img1"
+									src="@img/gallery/thumbnails/1a-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/4b.jpg" class="gallery__image">
+								<img
+									alt="img2"
+									src="@img/gallery/thumbnails/4b-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/2a.jpg" class="gallery__image">
+								<img
+									alt="img1"
+									src="@img/gallery/thumbnails/2a-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/2b.jpg" class="gallery__image">
+								<img
+									alt="img2"
+									src="@img/gallery/thumbnails/2b-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/1b.jpg" class="gallery__image">
+								<img
+									alt="img2"
+									src="@img/gallery/thumbnails/1b-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/3a.jpg" class="gallery__image">
+								<img
+									alt="img1"
+									src="@img/gallery/thumbnails/3a-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/4a.jpg" class="gallery__image">
+								<img
+									alt="img1"
+									src="@img/gallery/thumbnails/4a-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+							<a href="@img/gallery/3b.jpg" class="gallery__image">
+								<img
+									alt="img2"
+									src="@img/gallery/thumbnails/3b-s.jpg"
+									class="gallery__preview"
+								/>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section data-watch="navigator" class="video">
+					<div class="video__container">
+						<h2 class="video__title title _icon-video">Видео</h2>
+
+						<!-- Оболочка слайдера -->
+						<div class="video__slider swiper-video">
+							<!-- Движущаяся часть слайдера -->
+							<div class="video__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								 <!-- Slide #1 -->
+								<div class="video__slide swiper-slide">
+									<div data-gallery class="video__block">
+										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
+										<a
+											data-lg-size="1280-720"
+										  data-src="//www.youtube.com/watch?v=EIUJfXk3_3w"
+											data-poster="@img/thumb-intro/kz.jpg"
+											data-sub-html="<h4>Fish To Feed Puffling | Blue Planet II | BBC Earth</h4>
+								<p>Onrecord-breaking Emmy nominations.</p>"
+										>
+											<img
+												class="img-responsive"
+												src="@img/thumb-intro/kz.jpg"
+											/>
+										</a>
+										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
+									</div>
+								</div>
+								<!-- Slide #2 -->
+								<div class="video__slide swiper-slide">
+									<div data-gallery class="video__block">
+										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
+										<a
+											data-lg-size="1280-720"
+											data-src="//www.youtube.com/watch?v=EIUJfXk3_3w&mute=0"
+											data-poster="@img/thumb-intro/en.jpg"
+											data-sub-html="<h4>English | Blue Planet II</h4>
+								<p>Onrecord-breaking.</p>"
+										>
+											<img
+												class="img-responsive"
+												src="@img/thumb-intro/en.jpg"
+											/>
+										</a>
+										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
+									</div>
+								</div>
+								<!-- Slide #3 -->
+								<div class="video__slide swiper-slide">
+									<div data-gallery class="video__block">
+										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
+										<a
+											data-lg-size="1280-720"
+											data-src="//www.youtube.com/watch?v=EIUJfXk3_3w&mute=0"
+											data-poster="@img/thumb-intro/ru.jpg"
+											data-sub-html="<h4>Fish To Feed Puffling | Blue</h4>
+								<p>Onrecord-breaking.</p>"
+										>
+											<img
+												class="img-responsive"
+												src="@img/thumb-intro/ru.jpg"
+											/>
+										</a>
+										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="swiper-pagination-video"></div>
+							<!-- Если требуется навигация (слева/справа) -->
+						</div>
+
+					</div>
+				</section>
+				<section data-watch="navigator" class="links">
+					<div class="links__container">
+						<h2 class="links__title title _icon-links">Ссылки</h2>
+						<div class="links__items">
+							<ul class="links__list">
+								<li class="links__item">
+									<a
+										href="https://akteram.com/14388"
+										class="button"
+										target="_blank"
+										>Akteram.com</a
+									>
+								</li>
+								<li class="links__item">
+									<a
+										href="https://etalents.pro/users/16404-khamit-arkayev/information"
+										class="button"
+										target="_blank"
+										>Etalents.Pro</a
+									>
+								</li>
+								<li class="links__item">
+									<a
+										href="https://kinolift.com/portal/ru"
+										class="button"
+										target="_blank"
+										>KinoLift</a
+									>
+								</li>
+								<li class="links__item">
+									<a
+										href="https://www.filmtoolz.ru/"
+										class="button"
+										target="_blank"
+										>FilmToolz</a
+									>
+								</li>
+								<li class="links__item">
+									<a
+										href="https://www.kinopoisk.ru/"
+										class="button"
+										target="_blank"
+										>KinoPoisk</a
+									>
+								</li>
+								<li class="links__item">
+									<a
+										href="https://www.instagram.com/"
+										class="button"
+										target="_blank"
+										>Instagram</a
+									>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>
