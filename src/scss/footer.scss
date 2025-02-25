@@ -1,3 +1,84 @@
 //====================================================================================================
-
+.footer {
+	background-color: #141414;
+	box-shadow: 0px -5px 7px rgba(255, 87, 51, 0.75);
+	// .footer__container
+	&__container {
+		padding: 50px 50px 15px 50px;
+		@media (max-width:$tablet){
+			padding: toRem(30) toRem(15) toRem(15) toRem(15);
+		}
+	}
+	// .footer__title
+	&__title {
+		font-size: toRem(18);
+		font-weight: 500;
+		line-height: 150%;
+		letter-spacing: 1px;
+		text-align: center;
+		@include adaptiveValue("margin-bottom", 30, 15);
+		@media (max-width:$tablet){
+		}
+	}
+	// .footer__row
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: toRem(0) toRem(-50);
+		@media (max-width:$mobile){
+			flex-direction: column;
+		}
+	}
+	// .footer__column
+	&__column {
+		// background-color: #794f45;
+		flex: 0 1 50%;
+		min-width: 50%;
+		padding: toRem(0) toRem(50);
+		@media (max-width:$mobile){
+			flex: 0 1 100%;
+			min-width: 100%;
+		}
+	}
+	// .footer__social-icons
+	&__social-icons {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: toRem(350);
+		margin: 0 auto;
+		@include adaptiveValue("margin-bottom", 50, 40);
+		gap: toRem(45);
+		@media (min-width:$mobile){
+			 justify-content: space-around; 
+		}
+	}
+	// .footer__items-list
+	&__items-list {
+		display: flex;
+		justify-content: space-between;
+		max-width: toRem(400);
+		@include adaptiveValue("margin-bottom", 50, 40);
+		margin: 0 auto;
+		@include adaptiveValue("font-size", 20, 16);
+	}
+}
+.icon {
+	font-size: toRem(35);
+}
+.social-icons-title{
+	font-size: toRem(16);
+	font-weight: 500;
+	@include adaptiveValue("margin-bottom", 30, 15);
+}
+.copy {
+	// .copy__rights
+	&__rights {
+		display: flex;
+		justify-content: center;
+		font-size: toRem(12);
+		color: #939799;
+	}
+}
 //====================================================================================================

@@ -1,4 +1,8 @@
 //HOME ============================================================
+.home__container{
+	margin-top: 70px;
+}
+
 .home {
 	&__slide img{
 		display: block;
@@ -117,9 +121,12 @@
 //  VIDEO ===========================================
 .img-responsive {
 	width: 100%;
-	// grid-row: span 1;
 	border-radius: 10px;
 	margin-bottom: 20px;
+}
+
+.thumb-showreel{
+	border: 2px solid gray;
 }
 
 .swiper-pagination-video{

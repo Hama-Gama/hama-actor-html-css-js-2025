@@ -36,7 +36,7 @@ import * as flsFunctions from "./files/functions.js";
 /* Добавление loaded для HTML после полной загрузки страницы */
 // flsFunctions.addLoadedClass();
 /* Модуль для работы с меню (Бургер) */
-// flsFunctions.menuInit();
+flsFunctions.menuInit();
 /* Форматирование чисел */
 // import './libs/wNumb.min.js';
 
@@ -180,7 +180,7 @@ import "./files/sliders.js";
 Документация плагина: https://github.com/Grsmto/simplebar/tree/master/packages/simplebar
 Сниппет(HTML): 
 */
-// import './files/scroll/simplebar.js';
+ import './files/scroll/simplebar.js';
 
 // Ленивая (отложенная) загрузка картинок
 // Документация по работе в шаблоне: https://start-template.ru/modul-lenivaya-podgruzka-lazy-loading-chertogi-frilansera-v3-0-0/
@@ -191,7 +191,7 @@ import "./files/sliders.js";
 // Наблюдатель объектов с атрибутом data-watch
 // Документация: https://start-template.ru/modul-nablyudatel-po-poyavleniyu-elementov-pri-prokrutke-straniczy-skrolle-chertogi-frilansera-v3-0-0/
 // Сниппет(HTML):
-// import './libs/watcher.js'
+import './libs/watcher.js'
 
 // / / Модуль по экранной прокрутке
 // Документация: https://start-template.ru/modul-ekrannoj-prokrutki-straniczy-fullpage-chertogi-frilansera-v3-0-0/
@@ -208,11 +208,11 @@ import * as flsScroll from "./files/scroll/scroll.js";
 
 // Плавная навигация по странице
 // Документация: https://start-template.ru/modul-prokrutka-k-nuzhnomu-bloku-plavnaya-navigacziya-po-stranicze-chertogi-frilansera-v3-0-0/
-// flsScroll.pageNavigation();
+ flsScroll.pageNavigation();
 
 // Функциональность добавления классов в хеддер при прокрутке
 // Документация: https://start-template.ru/modul-dobavleniya-klassov-v-shapku-pri-prokrutke-straniczy-chertogi-frilansera-v3-0-0/
-// flsScroll.headerScroll();
+flsScroll.headerScroll();
 
 // Модуль анимация цифрового счетчика
 // Документация: https://start-template.ru/modul-animaczii-czifrovogo-schetchika/

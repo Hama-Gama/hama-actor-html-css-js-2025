@@ -1,0 +1,118 @@
+//====================================================================================================
+.header {
+	position: absolute;
+	width: 100%;
+	background-color: #000;
+	padding: 10px 0;
+	z-index: 5;
+	border-bottom: 1px solid rgb(104, 104, 104);
+	&._header-scroll{
+		position: fixed;
+		top: -200%;
+		background-color: #000;
+	}
+	&._header-show{
+		transition: top 0.3s ease 0s;
+		top: 0;
+	}
+	// .header__container
+	&__container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        min-height: 30px;
+	}
+	// .header__logo
+	&__logo {
+        flex: 1 1 auto;
+				letter-spacing: 1px;
+				font-size: toRem(20px);
+	}
+	&__logo span{
+        color: orangered;
+				@include adaptiveValue("margin-right", 15, 10);
+	}
+	// .header__menu
+}
+
+.switch_language-container {
+	// background-color: green;
+	width: 100%;
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+}
+.fi {
+}
+.fi-us {
+}
+.active_lang {
+}
+.fi-ru {
+}
+.hide {
+	display: none;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+	// .menu__body
+	&__body {
+        @media (max-width:$mobile){
+						padding: toRem(50) toRem(15);
+            position: fixed;
+            width: 100%;
+            height: 50%;
+            top: toRem(50);
+            right: 100%;
+            overflow: auto;
+            // background-color: rgba(0, 0, 0, 0.8); // transparent background for menu (lock swiper autoplay)
+						background-color: #000;
+            z-index: 4;
+            transition: all 0.5s ease 0s;
+						&::before {
+							content: "";
+							position: fixed;
+							width: 100%;
+							height: toRem(50);
+							top: 0;
+							right: 100%;
+							z-index: 2;
+						}
+            .menu-open & {
+                right: 0;
+								&::before{
+									right: 0;
+								}
+            }
+        }
+	}
+	// .menu__list
+	&__list {
+        display: flex;
+        // flex-wrap: wrap;
+        row-gap: 5px;
+        @include adaptiveValue("column-gap", 90, 20);
+        @media (max-width:$mobile){
+					  text-align: center;
+            flex-direction: column;
+						row-gap: toRem(60);
+        }
+	}
+	// .menu__item
+	// &__item {
+	// }
+	// .menu__link
+	&__link {
+        // @include adaptiveValue("font-size", 16, 24);
+				font-size: toRem(16);
+				line-height: 150%;
+				letter-spacing: toRem(2);
+				@media (max-width:$mobile){
+					font-size: toRem(20);
+				}
+	}
+}

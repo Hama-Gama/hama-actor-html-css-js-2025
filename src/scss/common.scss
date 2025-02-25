@@ -3,7 +3,7 @@
 //title ========================================================================================================================================================
 .title{
 	display: flex;
-	justify-content: center;
+	// justify-content: center;
 	align-items: center;
 	@include adaptiveValue("column-gap", 20, 10);
 	@include adaptiveValue("font-size", 20, 15);
@@ -25,6 +25,12 @@
 		top: 100%;
 		left: 0;
 	}
+}
+
+@media (min-width:$mobile){
+	 .title {
+		justify-content: center;
+	 } 
 }
 //========================================================================================================================================================
 .button{
