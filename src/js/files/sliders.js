@@ -126,11 +126,11 @@ function initSliders() {
 
 			
 			// Эффекты
-			effect: 'fade',
-			autoplay: {
-				delay: 2500,
-				disableOnInteraction: true,
-			},
+			// effect: 'fade',
+			// autoplay: {
+			// 	delay: 2500,
+			// 	disableOnInteraction: true,
+			// },
 			
 
 			// Пагинация

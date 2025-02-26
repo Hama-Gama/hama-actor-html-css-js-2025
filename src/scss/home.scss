@@ -1,10 +1,10 @@
 //HOME ============================================================
-.home__container{
+.home__container {
 	margin-top: 70px;
 }
 
 .home {
-	&__slide img{
+	&__slide img {
 		display: block;
 		width: 100%;
 		height: 100%;
@@ -16,15 +16,10 @@
 	}
 }
 
-
-.swiper-pagination-bullet-active, 
-.swiper-pagination-bullet 
-{
-   background-color: #fff !important;
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet {
+	background-color: #fff !important;
 }
-
-
-
 
 //INFO =========================================================
 .info {
@@ -34,16 +29,16 @@
 	}
 	// .info__title-body
 	&__title-body {
-		@include adaptiveValue("margin-bottom", 40, 20);
+		@include adaptiveValue('margin-bottom', 40, 20);
 	}
 	// .info__title
 	&__title {
 		text-transform: capitalize;
 		line-height: 120%;
-		@include adaptiveValue("margin-top", 30, 20);
-		@include adaptiveValue("margin-bottom", 10, 5);
-		&::after{
-			content: "";
+		@include adaptiveValue('margin-top', 30, 20);
+		@include adaptiveValue('margin-bottom', 10, 5);
+		&::after {
+			content: '';
 			position: absolute;
 			top: 250%;
 			left: 0;
@@ -52,7 +47,7 @@
 	// .info__subtitle
 	&__subtitle {
 		letter-spacing: 2px;
-		@include adaptiveValue("font-size", 16, 14);
+		@include adaptiveValue('font-size', 16, 14);
 		font-weight: 600;
 		text-align: center;
 		color: #fff;
@@ -61,18 +56,18 @@
 	&__list {
 		max-width: 1000px;
 		margin: 0 auto;
-		@media (min-width:$mobile){
+		@media (min-width: $mobile) {
 			columns: 2;
 			-webkit-columns: 2;
-			-moz-columns: 2;  
-			@include adaptiveValue("column-gap", 140, 0);
+			-moz-columns: 2;
+			@include adaptiveValue('column-gap', 140, 0);
 		}
 	}
 	// .info__item
 	&__item {
 		display: flex;
 		justify-content: space-between;
-		@include adaptiveValue("font-size", 20, 18);
+		@include adaptiveValue('font-size', 20, 18);
 		font-weight: 500;
 		line-height: 120%;
 		letter-spacing: 1px;
@@ -83,8 +78,6 @@
 	}
 }
 
-
-
 // GALLERY ================================================
 .gallery {
 	// .gallery__images
@@ -94,11 +87,11 @@
 		grid-gap: 15px;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(4, 30vw);
-		@media (min-width:$mobile){
+		@media (min-width: $mobile) {
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(3, 30vw);
 		}
-		@media (min-width:$tablet){
+		@media (min-width: $tablet) {
 			grid-template-columns: repeat(8, 1fr);
 			grid-template-rows: repeat(1, 20vw);
 		}
@@ -117,7 +110,6 @@
 	}
 }
 
-
 //  VIDEO ===========================================
 .img-responsive {
 	width: 100%;
@@ -125,20 +117,20 @@
 	margin-bottom: 20px;
 }
 
-.thumb-showreel{
+.thumb-showreel {
 	border: 2px solid gray;
 }
 
-.swiper-pagination-video{
+.swiper-pagination-video {
 	text-align: center;
 }
-
 
 // LINKS================================================
 
 .links {
-	&__items{
+	&__items {
 		// background-color: #794f45;
+		margin-bottom: 70px;
 	}
 	// .links__list
 	&__list {
@@ -147,6 +139,204 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: toRem(30);
-		@include adaptiveValue("gap", 50, 25);
+		@include adaptiveValue('gap', 50, 25);
 	}
+}
+
+
+//   FORM ======================================
+.form-container {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+.home__form {
+	background-color: #000;
+	padding: 20px 15px;
+	margin: 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 14px;
+	border: 1px solid gray;
+	max-width: 480px;
+}
+
+.contact__group {
+	display: grid;
+	row-gap: 2rem;
+}
+
+.contact__form .contact__area {
+	height: 10rem;
+}
+
+// @media (min-width:$tablet){
+// 	  .contact__group {
+//     	display: grid;
+// 			grid-template-columns: repeat(3, 1fr);
+// 	    gap: 1rem;
+//   }
+// 	  .contact__form .contact__area{
+// 	    height: 7rem;
+// 			grid-column: 2 / 3;
+//   }
+// 	.form__button{
+// 		grid-column: 2 / 3;
+// 	}
+// }
+
+.form__title {
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 35px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 15px;
+	padding: 8px 20px;
+	width: 80%;
+	min-width: fit-content;
+	min-width: 200px;
+	margin: toRem(30) auto;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+// @media (min-width:$mobile){
+// 	 .form__title{
+// 		  max-width: 30%;
+// 	 }
+// }
+
+.contact__form {
+	position: relative;
+}
+
+.contact__box {
+	position: relative;
+	width: 100%;
+	height: 58px;
+	flex: 1 1 30%;
+}
+.contact__input {
+	font-size: 20px;
+	outline: none;
+	border: none;
+}
+
+.contact__input {
+	border-radius: 5px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	border: 2px solid gray;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-weight: 400;
+	transition:
+		border 0.4s,
+		background-color 0.4s;
+}
+
+.contact__input::placeholder {
+	color: #fff;
+	transition: opacity 0.4s;
+}
+
+.contact__input:focus {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border: 2px solid #fff;
+}
+
+.contact__input:-webkit-autofill {
+	transition:
+		background-color 6000s,
+		color 6000s;
+}
+
+.contact__label {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	background-color: #000;
+	padding: 8px;
+	pointer-events: none;
+	transition:
+		top 0.4s,
+		opacity 0.4s,
+		background-color 0.4s;
+	opacity: 0;
+}
+
+.contact__area textarea {
+	resize: none;
+	padding-top: 1rem;
+}
+
+.contact__button {
+	background-color: hsl(17, 100%, 56%);
+	cursor: pointer;
+	padding: 10px 30px;
+	width: fit-content;
+	border-radius: 10px;
+	color: #fff;
+	border: none;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: background-color 0.4s ease-in ease-out 0.4s;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.contact__button:hover {
+	background-color: hsl(17, 100%, 66%);
+	outline: none;
+	border: none;
+}
+
+.form__button {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+
+.contact__input:focus::placeholder {
+	opacity: 0;
+}
+
+// Move label up & sticky label
+.contact__input:focus + .contact__label,
+.contact__input:not(:placeholder-shown).contact__input:not(:focus)
+	+ .contact__label {
+	opacity: 1;
+	top: -16px;
+}
+
+.form-error {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	width: 100%;
+	padding: 5px 10px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.contact__box {
+}
+.contact__area {
+}
+.contact__input {
+}
+.contact__label {
 }
