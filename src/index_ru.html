@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 	@@include('html/_head.htm',{ "title":"HomePage" })
 	<body>
 		<div class="wrapper">
+			<!-- @@include('html/_header.htm',{}) -->
 			@@include('html/_header.htm',{})
 			<main class="page">
 				<section
@@ -61,21 +62,13 @@
 					<div class="info__container">
 						<div class="info__title-body"></div>
 						<ul class="info__list">
-							<li class="info__item">Full Name<span>Khamit Arkayev</span></li>
-							<li class="info__item">
-								City<span>Zhezkazgan, Kazakhstan</span>
-							</li>
-							<li class="info__item">Age<span>39</span></li>
-							<li class="info__item">Height<span>180см</span></li>
-							<li class="info__item">Weight<span>65кg</span></li>
-							<li class="info__item">Hair<span>Dark-Brown</span></li>
-							<li class="info__item">Eyes<span>Green</span></li>
-							<li class="info__item">
-								Skills<span>MMA, Taekwondo, Boxing</span>
-							</li>
-							<li class="info__item">
-								Languages<span>En, Ru, Kz, Tr, Kr</span>
-							</li>
+							<li class="info__item">ФИО<span>Хамит Аркаев</span></li>
+							<li class="info__item">Город<span>Жезказган, Казахстан</span></li>
+							<li class="info__item">Возраст<span>39</span></li>
+							<li class="info__item">Рост<span>180см</span></li>
+							<li class="info__item">Вес<span>65кг</span></li>
+							<li class="info__item">Волосы<span>Темно-Коричневый</span></li>
+							<li class="info__item">Глаза<span>зеленые</span></li>
 						</ul>
 					</div>
 				</section>
@@ -87,82 +80,58 @@
 					class="gallery"
 				>
 					<div class="gallery__container">
-						<h2 class="gallery__title title _icon-image-gallery">Images</h2>
+						<h2 class="gallery__title title">Фото</h2>
 						<div data-gallery class="gallery__images">
-							<a
-								href="@img/gallery/khamit-arkayev-1.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-1.jpg" class="gallery__image">
 								<img
 									alt="img-1"
 									src="@img/gallery/thumbnails/thumb-1.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-2.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-2.jpg" class="gallery__image">
 								<img
 									alt="img-2"
 									src="@img/gallery/thumbnails/thumb-2.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-3.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-3.jpg" class="gallery__image">
 								<img
 									alt="img-3"
 									src="@img/gallery/thumbnails/thumb-3.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-4.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-4.jpg" class="gallery__image">
 								<img
 									alt="img-4"
 									src="@img/gallery/thumbnails/thumb-4.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-5.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-5.jpg" class="gallery__image">
 								<img
 									alt="img-5"
 									src="@img/gallery/thumbnails/thumb-5.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-6.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-6.jpg" class="gallery__image">
 								<img
 									alt="img-6"
 									src="@img/gallery/thumbnails/thumb-6.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-7.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-7.jpg" class="gallery__image">
 								<img
 									alt="img-7"
 									src="@img/gallery/thumbnails/thumb-7.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a
-								href="@img/gallery/khamit-arkayev-8.jpg"
-								class="gallery__image"
-							>
+							<a href="@img/gallery/khamit-arkayev-8.jpg" class="gallery__image">
 								<img
 									alt="img-8"
 									src="@img/gallery/thumbnails/thumb-8.jpg"
@@ -175,9 +144,7 @@
 				<!-- Video -->
 				<section data-watch="navigator" class="video">
 					<div class="video__container">
-						<h2 class="video__title title _icon-video-player-intro">
-							Self Introduction
-						</h2>
+						<h2 class="video__title title _icon-video">Визитка</h2>
 						<!-- Оболочка слайдера INTRO -->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
@@ -246,7 +213,7 @@
 							<!-- Если требуется навигация (слева/справа) -->
 						</div>
 
-						<h2 class="video__title title _icon-reels">Acting reels</h2>
+						<h2 class="video__title title _icon-video">Шоу рил</h2>
 						<!-- Оболочка слайдера SHOW REELS-->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
@@ -319,7 +286,7 @@
 				<!-- Links -->
 				<section data-watch="navigator" class="links">
 					<div class="links__container">
-						<h2 class="links__title title _icon-links">Links</h2>
+						<h2 class="links__title title _icon-links">Ссылки</h2>
 						<div class="links__items">
 							<ul class="links__list">
 								<li class="links__item">
@@ -360,19 +327,19 @@
 
 								<li class="links__item">
 									<a
-										href="https://www.instagram.com/"
+										href="https://drive.google.com/drive/folders/1QPJQcni-KqJxp1Gbb9ROYjgRzPk89e5-?usp=sharing"
 										class="button"
 										target="_blank"
-										>Instagram</a
+										>Google Disk</a
 									>
 								</li>
 
 								<li class="links__item">
 									<a
-										href="https://drive.google.com/drive/folders/1QPJQcni-KqJxp1Gbb9ROYjgRzPk89e5-?usp=sharing"
-										class="button _icon-google-drive"
+										href="https://www.instagram.com/"
+										class="button"
 										target="_blank"
-										>Google Drive</a
+										>Instagram</a
 									>
 								</li>
 							</ul>
@@ -380,7 +347,7 @@
 						<!-- Contact-form -->
 						<div class="form-container __container">
 							<div class="home__form">
-								<h2 class="form__title">contact me</h2>
+								<h2 class="form__title">Написать мне</h2>
 								<form action="" class="contact__form" id="contact-form">
 									<div class="contact__group">
 										<!-- Name -->
@@ -390,11 +357,13 @@
 												name="user_name"
 												class="contact__input"
 												id="name"
-												placeholder="Name"
+												placeholder="Имя"
 												maxlength="30"
 												required
 											/>
-											<label for="name" class="contact__label"> Name </label>
+											<label for="name" class="contact__label">
+												Имя
+											</label>
 										</div>
 
 										<!-- Email -->
@@ -432,23 +401,23 @@
 												class="contact__input"
 												maxlength="300"
 												required
-												placeholder="Type your text here"
+												placeholder="Сообщение"
 											></textarea>
-											<label for="message" class="contact__label"
-												>Type your text here</label
-											>
+											<label for="message" class="contact__label">Сообщение</label>
 										</div>
 
 										<div class="form__button">
 											<p class="form-error" id="contact-message"></p>
 											<button type="submit" class="contact__button button">
-												send
+												Отправить
 											</button>
 										</div>
 									</div>
 								</form>
 							</div>
 						</div>
+
+
 					</div>
 				</section>
 			</main>

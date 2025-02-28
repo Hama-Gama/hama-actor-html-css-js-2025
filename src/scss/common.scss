@@ -14,7 +14,7 @@
 	font-weight: 700;
 	text-align: center;
 	@include adaptiveValue("margin-top", 30, 20);
-	@include adaptiveValue("margin-bottom", 30, 20);
+	@include adaptiveValue("margin-bottom", 35, 25);
 	position: relative;
 	&::after{
 		content: "";
@@ -22,7 +22,7 @@
 		width: 100%;
 		background-color: $mainColor;
 		position: absolute;
-		top: 100%;
+		top: 120%;
 		left: 0;
 	}
 }

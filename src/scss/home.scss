@@ -78,6 +78,9 @@
 	}
 }
 
+
+
+
 // GALLERY ================================================
 .gallery {
 	// .gallery__images
@@ -134,13 +137,18 @@
 	}
 	// .links__list
 	&__list {
-		// background-color: #77608d;
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: toRem(30);
 		@include adaptiveValue('gap', 50, 25);
 	}
+}
+
+.links__item a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
