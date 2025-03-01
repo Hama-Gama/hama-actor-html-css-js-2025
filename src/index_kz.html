@@ -4,7 +4,7 @@
 	<body>
 		<div class="wrapper">
 			<!-- @@include('html/_header.htm',{}) -->
-			@@include('html/_header.htm',{})
+			@@include('html/_header_kz.htm',{})
 			<main class="page">
 				<section
 					data-watch-threshold="0.5"
@@ -62,13 +62,13 @@
 					<div class="info__container">
 						<div class="info__title-body"></div>
 						<ul class="info__list">
-							<li class="info__item">ФИО<span>кАЗАКША</span></li>
-							<li class="info__item">Город<span>Жезказган, Казахстан</span></li>
-							<li class="info__item">Возраст<span>39</span></li>
-							<li class="info__item">Рост<span>180см</span></li>
-							<li class="info__item">Вес<span>65кг</span></li>
-							<li class="info__item">Волосы<span>Темно-Коричневый</span></li>
-							<li class="info__item">Глаза<span>зеленые</span></li>
+							<li class="info__item">Аты-жөні<span>Хамит Аркаев</span></li>
+							<li class="info__item">Қала<span>Жезқазған, Қазақстан</span></li>
+							<li class="info__item">Жасы<span>39</span></li>
+							<li class="info__item">Бойы<span>180см</span></li>
+							<li class="info__item">Салмағы<span>65кг</span></li>
+							<li class="info__item">Шаш<span>Қара қоңыр</span></li>
+							<li class="info__item">Көз<span>жасыл</span></li>
 						</ul>
 					</div>
 				</section>
@@ -80,58 +80,82 @@
 					class="gallery"
 				>
 					<div class="gallery__container">
-						<h2 class="gallery__title title">Фото</h2>
+						<h2 class="gallery__title title _icon-image-gallery">Сурет</h2>
 						<div data-gallery class="gallery__images">
-							<a href="@img/gallery/khamit-arkayev-1.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-1.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-1"
 									src="@img/gallery/thumbnails/thumb-1.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-2.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-2.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-2"
 									src="@img/gallery/thumbnails/thumb-2.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-3.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-3.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-3"
 									src="@img/gallery/thumbnails/thumb-3.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-4.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-4.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-4"
 									src="@img/gallery/thumbnails/thumb-4.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-5.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-5.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-5"
 									src="@img/gallery/thumbnails/thumb-5.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-6.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-6.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-6"
 									src="@img/gallery/thumbnails/thumb-6.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-7.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-7.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-7"
 									src="@img/gallery/thumbnails/thumb-7.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-8.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-8.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-8"
 									src="@img/gallery/thumbnails/thumb-8.jpg"
@@ -144,7 +168,9 @@
 				<!-- Video -->
 				<section data-watch="navigator" class="video">
 					<div class="video__container">
-						<h2 class="video__title title _icon-video">Визитка</h2>
+						<h2 class="video__title title _icon-video-player-intro">
+							Өзім туралы бейне
+						</h2>
 						<!-- Оболочка слайдера INTRO -->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
@@ -169,6 +195,7 @@
 										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
 									</div>
 								</div>
+
 								<!-- Slide #2 -->
 								<div class="video__slide swiper-slide">
 									<div data-gallery class="video__block">
@@ -188,6 +215,7 @@
 										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
 									</div>
 								</div>
+
 								<!-- Slide #3 -->
 								<div class="video__slide swiper-slide">
 									<div data-gallery class="video__block">
@@ -213,7 +241,7 @@
 							<!-- Если требуется навигация (слева/справа) -->
 						</div>
 
-						<h2 class="video__title title _icon-video">Шоу рил</h2>
+						<h2 class="video__title title _icon-reels">Шоу рил</h2>
 						<!-- Оболочка слайдера SHOW REELS-->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
@@ -286,7 +314,7 @@
 				<!-- Links -->
 				<section data-watch="navigator" class="links">
 					<div class="links__container">
-						<h2 class="links__title title _icon-links">Ссылки</h2>
+						<h2 class="links__title title _icon-links">Сілтемелер</h2>
 						<div class="links__items">
 							<ul class="links__list">
 								<li class="links__item">
@@ -347,7 +375,7 @@
 						<!-- Contact-form -->
 						<div class="form-container __container">
 							<div class="home__form">
-								<h2 class="form__title">Написать мне</h2>
+								<h2 class="form__title">маған хабарласыңыз</h2>
 								<form action="" class="contact__form" id="contact-form">
 									<div class="contact__group">
 										<!-- Name -->
@@ -357,13 +385,11 @@
 												name="user_name"
 												class="contact__input"
 												id="name"
-												placeholder="Имя"
+												placeholder="Аты"
 												maxlength="30"
 												required
 											/>
-											<label for="name" class="contact__label">
-												Имя
-											</label>
+											<label for="name" class="contact__label"> Аты-жөні </label>
 										</div>
 
 										<!-- Email -->
@@ -401,23 +427,23 @@
 												class="contact__input"
 												maxlength="300"
 												required
-												placeholder="Сообщение"
+												placeholder="Мәтін"
 											></textarea>
-											<label for="message" class="contact__label">Сообщение</label>
+											<label for="message" class="contact__label"
+												>Мәтін</label
+											>
 										</div>
 
 										<div class="form__button">
 											<p class="form-error" id="contact-message"></p>
 											<button type="submit" class="contact__button button">
-												Отправить
+												Жіберу
 											</button>
 										</div>
 									</div>
 								</form>
 							</div>
 						</div>
-
-
 					</div>
 				</section>
 			</main>

@@ -173,10 +173,15 @@
 	&__link {
         // @include adaptiveValue("font-size", 16, 24);
 				font-size: toRem(16);
+				color: hsl(0, 0%, 80%);
 				line-height: 150%;
 				letter-spacing: toRem(2);
+				transition: all 0.3s ease-in-out;
 				@media (max-width:$mobile){
 					font-size: toRem(20);
 				}
+				&:hover {
+          color: hsl(0, 0%, 100%);
+        }
 	}
 }

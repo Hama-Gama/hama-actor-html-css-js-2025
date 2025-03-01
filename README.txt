@@ -8,13 +8,22 @@
 
 
 
+translate all pages
+upload self intro
+upload acting
+
+Resume Google Disk
+Upload all stuff google drive
+
+DEMO REEL
+
+фильмография
+add YouTube Channel
+
+NADINE CHOI
 
 
-chetverg
-1/ Translations (crowdin) (chetverg)
-2/ Resume Google Disk
-
-
+CONTENT
 Shoes Size: 43 (27.5cm)
 Shirt Size: M
 Pants size: 52;
@@ -24,10 +33,6 @@ Kazakh - Native
 English - fluent (second Language)
 образование
 
-
-
-фильмография
-add YouTube Channel
 
 
 
