@@ -45,48 +45,17 @@ const sendEmail = e => {
 
 contactForm.addEventListener('submit', sendEmail)
 
+
+
+
 //  LANGUAGE DROPDOWN
-// var languges = document.querySelector('.content')
-
-// //using just one event listener to promote "DRY" code
-// //we can target the LIs and their inner As from the UL
-// languges.addEventListener('click', function (e) {
-// 	var target = e.target //this is the element the event is fired on
-
-// 	if (target.hasAttribute('hreflang')) {
-// 		var lang = target.getAttribute('hreflang')
-// 		target.parentElement.style.display = 'none'
-// 		localStorage.setItem('lang', lang)
-// 		window.location.href = '/' + lang //
-// 	}
-// })
-
-// if (document.documentElement.lang === 'en') {
-// 	window.location.href = 'Some_document.html.en'
-// } else if (document.documentElement.lang === 'ru') {
-// 	window.location.href = 'Some_document.html.ru'
-// }
-
-const activeLang = document.documentElement.lang
-const langEn = document.getElementById('en')
-const langRu = document.getElementById('ru')
-const langKz = document.getElementById('kz')
-const langTr = document.getElementById('tr')
-const langKr = document.getElementById('kr')
-
-// if (activeLang === 'en') {
-// 	langEn.style.display = 'none'
-// } else if (activeLang === 'ru') {
-// 	langRu.style.display = 'none'
-// } else if (activeLang === 'kz') {
-// 	langKz.style.display = 'none'
-// } else if (activeLang === 'kr') {
-// 	langKr.style.display = 'none'
-// } else if (activeLang === 'tr'){
-// 	langTr.style.display = 'none'
+// if (document.documentElement.lang === 'ru') {
+// 	window.location.href = 'index.html.ru'
+// } else if (document.documentElement.lang === 'en') {
+// 	window.location.href = 'index.html.en'
 // }
 
 
 
 
-// SHOW MORE ======================================
+
