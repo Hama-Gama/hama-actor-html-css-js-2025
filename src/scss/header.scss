@@ -172,6 +172,7 @@
 	// .menu__link
 	&__link {
         // @include adaptiveValue("font-size", 16, 24);
+				position: relative;
 				font-size: toRem(16);
 				color: hsl(0, 0%, 80%);
 				line-height: 150%;

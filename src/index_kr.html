@@ -82,56 +82,80 @@
 					<div class="gallery__container">
 						<h2 class="gallery__title title">Фото</h2>
 						<div data-gallery class="gallery__images">
-							<a href="@img/gallery/khamit-arkayev-1.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-1.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-1"
 									src="@img/gallery/thumbnails/thumb-1.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-2.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-2.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-2"
 									src="@img/gallery/thumbnails/thumb-2.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-3.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-3.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-3"
 									src="@img/gallery/thumbnails/thumb-3.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-4.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-4.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-4"
 									src="@img/gallery/thumbnails/thumb-4.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-5.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-5.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-5"
 									src="@img/gallery/thumbnails/thumb-5.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-6.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-6.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-6"
 									src="@img/gallery/thumbnails/thumb-6.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-7.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-7.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-7"
 									src="@img/gallery/thumbnails/thumb-7.jpg"
 									class="gallery__preview"
 								/>
 							</a>
-							<a href="@img/gallery/khamit-arkayev-8.jpg" class="gallery__image">
+							<a
+								href="@img/gallery/khamit-arkayev-8.jpg"
+								class="gallery__image"
+							>
 								<img
 									alt="img-8"
 									src="@img/gallery/thumbnails/thumb-8.jpg"
@@ -286,7 +310,7 @@
 				<!-- Links -->
 				<section data-watch="navigator" class="links">
 					<div class="links__container">
-						<h2 class="links__title title _icon-links">Ссылки</h2>
+						<h2 class="links__title title _icon-links">Links</h2>
 						<div class="links__items">
 							<ul class="links__list">
 								<li class="links__item">
@@ -327,10 +351,16 @@
 
 								<li class="links__item">
 									<a
-										href="https://drive.google.com/drive/folders/1QPJQcni-KqJxp1Gbb9ROYjgRzPk89e5-?usp=sharing"
+										href="https://resumes.actorsaccess.com/khamit"
 										class="button"
 										target="_blank"
-										>Google Disk</a
+										>actors access</a
+									>
+								</li>
+
+								<li class="links__item">
+									<a href="#" class="button" target="_blank"
+										>casting networks</a
 									>
 								</li>
 
@@ -342,12 +372,30 @@
 										>Instagram</a
 									>
 								</li>
+								<!-- 
+								<li class="links__item">
+									<a
+										href="https://drive.google.com/drive/folders/1QPJQcni-KqJxp1Gbb9ROYjgRzPk89e5-?usp=sharing"
+										class="button _icon-google-drive"
+										target="_blank"
+										>Google Drive</a
+									>
+								</li> -->
 							</ul>
+
+							<button class="btn_google-drive">
+								<a
+									href="https://drive.google.com/drive/folders/1QPJQcni-KqJxp1Gbb9ROYjgRzPk89e5-?usp=sharing"
+									class="_icon-google-drive"
+									target="_blank"
+									>Google Drive</a
+								>
+							</button>
 						</div>
 						<!-- Contact-form -->
-						<div class="form-container __container">
+						<div class="form-container">
 							<div class="home__form">
-								<h2 class="form__title">Написать мне</h2>
+								<h2 class="form__title">contact me</h2>
 								<form action="" class="contact__form" id="contact-form">
 									<div class="contact__group">
 										<!-- Name -->
@@ -357,13 +405,11 @@
 												name="user_name"
 												class="contact__input"
 												id="name"
-												placeholder="Имя"
+												placeholder="Name"
 												maxlength="30"
 												required
 											/>
-											<label for="name" class="contact__label">
-												Имя
-											</label>
+											<label for="name" class="contact__label"> Name </label>
 										</div>
 
 										<!-- Email -->
@@ -401,23 +447,23 @@
 												class="contact__input"
 												maxlength="300"
 												required
-												placeholder="Сообщение"
+												placeholder="Type your text here"
 											></textarea>
-											<label for="message" class="contact__label">Сообщение</label>
+											<label for="message" class="contact__label"
+												>Type your text here</label
+											>
 										</div>
 
 										<div class="form__button">
 											<p class="form-error" id="contact-message"></p>
 											<button type="submit" class="contact__button button">
-												Отправить
+												send
 											</button>
 										</div>
 									</div>
 								</form>
 							</div>
 						</div>
-
-
 					</div>
 				</section>
 			</main>

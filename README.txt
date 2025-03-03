@@ -17,6 +17,8 @@ Upload all stuff google drive
 
 DEMO REEL
 
+FIGHT REEL & WORK OUT
+
 фильмография
 add YouTube Channel
 
