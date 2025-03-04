@@ -5,6 +5,46 @@
 //------------------------------------------------------------------------------
 
 
+1.
+MAKE SELF INTRO (30-40sec) 10 DUBLEY 
+
+2.
+watermark  website link
+
+3.
+Upload all stuff google drive
+
+4.
+Resume
+
+Google Drive
+фильмография
+CONTENT
+Shoes Size: 43 (27.5cm)
+Shirt Size: M
+Pants size: 52;
+Type: Euro-Asian;
+Russian - Native
+Kazakh - Native
+English - fluent (second Language)
+образование
+
+
+10 MARTA 
+buy domain
+deploy website
+NADINE CHOI
+
+
+
+
+
+
+
+
+
+
+
 1. demo reel 2021
 https://youtu.be/48fg-DhTFz0
 
@@ -21,35 +61,6 @@ Strela Behind the Scene
 https://youtu.be/byK7Qjqrp2U
 
 
-
-
-
-
-watermark  website link
-upload self intro
-upload acting
-Upload all stuff google drive
-
-FIGHT REEL & WORK OUT
-
-Google Drive
-Resume
-фильмография
-CONTENT
-Shoes Size: 43 (27.5cm)
-Shirt Size: M
-Pants size: 52;
-Type: Euro-Asian;
-Russian - Native
-Kazakh - Native
-English - fluent (second Language)
-образование
-
-
-
-buy domain
-deploy website
-NADINE CHOI
 
 
 

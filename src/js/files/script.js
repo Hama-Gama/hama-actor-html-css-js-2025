@@ -45,17 +45,44 @@ const sendEmail = e => {
 
 contactForm.addEventListener('submit', sendEmail)
 
+//*======================= EMAIL JS END =============*//
 
 
 
-//  LANGUAGE DROPDOWN
-// if (document.documentElement.lang === 'ru') {
-// 	window.location.href = 'index.html.ru'
-// } else if (document.documentElement.lang === 'en') {
-// 	window.location.href = 'index.html.en'
+//*============= LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR =============*//
+// let language = window.navigator.language
+// let languageFirstTwo = language.substr(0, 2)
+
+// if (languageFirstTwo === 'ru') {
+// 	window.location.href = 'https://hama-actor.com/ru/'
+// } else {
+// 	window.location.href = 'https://hama-actor.com'
 // }
 
 
 
 
 
+// lishniy code 
+
+// console.log(language);
+// console.log(languageFirstTwo);
+// console.log(currentLocation);
+
+// ORIGINAL VERSION
+
+// if (languageFirstTwo === 'ru') {
+// 	window.location.href = 'index.html.ru'
+// } else {
+// 	window.location.href = 'index.html.en'
+// }
+
+// CUSTOM VERSION
+
+// if (languageFirstTwo === 'ru'){
+// 	window.location.href = '.../src/index.html';
+// } else {
+// 	window.location.href = '.../src/index_en.html';
+// }
+
+//*======== END LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR =============*//
