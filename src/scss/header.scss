@@ -171,6 +171,7 @@
 	// }
 	// .menu__link
 	&__link {
+		white-space: nowrap;
         // @include adaptiveValue("font-size", 16, 24);
 				position: relative;
 				font-size: toRem(16);

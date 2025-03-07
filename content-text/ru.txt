@@ -1,0 +1,67 @@
+RUSSIAN
+
+// thumbnails text
+Khamit Arkayev
+Self Introduction 
+
+
+//  HEADER
+LANGUAGES:
+Русский
+Қазақша
+Türkçe
+한국어
+
+// NAV MENU
+Gallery
+Video
+Links
+Contacts
+
+
+// INFO BLOCK
+
+Имя:  Хамит Аркаев
+			
+Город:     Жезказган, Казахстан
+		
+Возраст:      39
+
+Рост:    180см
+
+Вес:     65кг
+
+Волосы:      Темно-коричневые
+
+Глаза:       Зеленые
+
+Навыки:     MMA, Taekwondo, Бокс
+		
+
+
+// SECTION IMAGES
+
+section title:  
+    Галерея
+
+		Визитка
+
+		Шоу рил
+
+
+// SECTION LINKS
+
+Ссылки
+
+
+// FORM  
+ 
+ написать мне
+
+ Имя
+
+ Email
+
+ Сообщение
+
+ Отправить

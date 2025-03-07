@@ -4,9 +4,14 @@
 Документация до шаблону: https://start-template.ru 
 //------------------------------------------------------------------------------
 
+complete turkce
+link head & header to each langugage
+upload to netlify
+
 
 1.
-MAKE SELF INTRO (30-40sec) 10 DUBLEY 
+MAKE SELF INTRO (30-40sec) 10 DUBLEY  
+(ru, kz, en, ko, tr)
 
 2.
 watermark  website link
@@ -41,10 +46,6 @@ NADINE CHOI
 
 
 
-
-
-
-
 1. demo reel 2021
 https://youtu.be/48fg-DhTFz0
 
@@ -59,10 +60,6 @@ https://youtu.be/F68UbXgnOcY
 4.
 Strela Behind the Scene
 https://youtu.be/byK7Qjqrp2U
-
-
-
-
 
 
 

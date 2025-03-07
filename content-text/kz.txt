@@ -1,0 +1,69 @@
+KAZAKH
+
+
+// thumbnails text
+Khamit Arkayev
+Self Introduction 
+
+
+//  HEADER
+LANGUAGES:
+Русский
+Қазақша
+Türkçe
+한국어
+
+// NAV MENU
+Сурет
+Бейне
+Сілтемелер
+Байланыс
+
+
+// INFO BLOCK
+
+Аты-жөні:  Хамит Аркаев
+			
+Қала:     Жезқазған, Қазақстан
+		
+Жасы:   39
+
+Бойы:   180см
+
+Салмағы:  65кг
+
+Шаш:   Қара қоңыр
+
+Көз:  жасыл
+
+Дағдылар:  MMA, Taekwondo, Бокс
+		
+
+
+// SECTION IMAGES
+
+section title:    
+
+Сурет
+
+Өзім туралы бейне
+
+Шоу рил
+
+
+// SECTION LINKS
+
+Сілтемелер
+
+
+// FORM  
+ 
+маған хабарласыңыз
+
+Аты-жөні
+
+Email
+
+Мәтін
+
+Жіберу

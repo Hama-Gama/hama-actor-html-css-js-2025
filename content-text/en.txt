@@ -1,0 +1,69 @@
+ENGLISH
+
+
+// thumbnails text
+Khamit Arkayev
+Self Introduction 
+
+
+//  HEADER
+LANGUAGES:
+Русский
+Қазақша
+Türkçe
+한국어
+
+// NAV MENU
+Gallery
+Video
+Links
+Contacts
+
+
+// INFO BLOCK
+
+Full Name:  Khamit Arkayev
+			
+City:     Zhezkazgan, Kazakhstan
+		
+Age:      39
+
+Height:    180см
+
+Weight:     65кg
+
+Hair:      Dark-Brown
+
+Eyes:       Green
+
+Skills:     MMA, Taekwondo, Boxing
+		
+
+
+// SECTION IMAGES
+
+section title:      Images
+
+		Self Introduction
+
+		Demo reels
+
+
+// SECTION LINKS
+
+Links
+
+
+// FORM  
+ 
+ contact me
+
+ Name
+
+ Email
+
+ Type your text here
+
+ send
+				
+		
