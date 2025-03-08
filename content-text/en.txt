@@ -1,5 +1,29 @@
 ENGLISH
 
+// HTML HEAD  description, keywords, seo.
+
+<meta name="author" content="Khamit Arkayev" />
+
+<meta
+  name="description"
+  content="Khamit Arkayev an actor based in Zhezkazgan, Kazakhstan. Age: 39. Starred in several short films." />
+
+
+
+// OPEN GRAPH
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.hama-actor.com">
+    <meta property="og:title" content="Khamit Arkayev Actor">
+    <meta property="og:description" content="Khamit Arkayev an actor based in Zhezkazgan, Kazakhstan. Age: 39. Starred in several short films.">
+    <meta property="og:image" content="https://ir.ozone.ru/s3/multimedia-d/wc1000/6029228593.jpg">
+
+
+head title: Khamit Arkayev Actor
+
+
+// SOURCE LINK   
+https://selectel.ru/blog/how-to-improve-seo/?utm_source=youtube.com&utm_medium=referral&utm_campaign=help_seo_290124_UlbiTV_paid
 
 // thumbnails text
 Khamit Arkayev
