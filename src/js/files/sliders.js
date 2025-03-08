@@ -170,13 +170,13 @@ function initSliders() {
 					spaceBetween: 20,
 				},
 				992: {
-					slidesPerView: 3,
+					slidesPerView: 3.2,
 					spaceBetween: 20,
 				},
-				// 1268: {
-				// 	slidesPerView: 4,
-				// 	spaceBetween: 10,
-				// },
+				1268: {
+					slidesPerView: 3.2,
+					spaceBetween: 10,
+				},
 			},
 			
 			// События

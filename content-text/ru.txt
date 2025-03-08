@@ -1,5 +1,43 @@
 RUSSIAN
 
+// HEAD
+
+<!-- languages -->
+	<link
+		rel="alternate"
+		href="https://www.hama-actor.com/"
+		hreflang="x-default"
+	/>
+	<link rel="alternate" href="https://www.hama-actor.com/ru/" hreflang="ru" />
+
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<meta name="author" content="Хамит Аркаев" />
+
+	<meta
+		name="description"
+		content="Хамит Аркаев, актер из г.Жезказган, Казахстан. Начиная с 2017г. играл главные роли в короткометражных фильмах."
+	/>
+
+	<!-- open graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.hama-actor.com" />
+	<meta property="og:title" content="Хамит Аркаев, актер" />
+	<meta
+		property="og:description"
+		content="Хамит Аркаев, актер из г.Жезказган, Казахстан. Начиная с 2017г. играл главные роли в короткометражных фильмах."
+	/>
+	<meta
+		property="og:image"
+		content="https://raw.githubusercontent.com/Hama-Gama/hama-actor-html-css-js-2025/refs/heads/master/src/img/og-image/omg-image-head-html.jpg"
+	/>
+
+
+
+
+
+
 // thumbnails text
 Khamit Arkayev
 Self Introduction 

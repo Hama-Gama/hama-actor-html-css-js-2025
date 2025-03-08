@@ -1,4 +1,4 @@
-ENGLISH
+KOREAN  
 
 // HTML HEAD  description, keywords, seo.
 
@@ -16,7 +16,7 @@ ENGLISH
     <meta property="og:image" content="https://raw.githubusercontent.com/Hama-Gama/hama-actor-html-css-js-2025/refs/heads/master/src/img/og-image/omg-image-head-html.jpg">
 
 
-head title: Khamit Arkayev, Actor
+head title: Khamit Arkayev, Actor  카밋 아르카예프, 배우
 
 
 // SOURCE LINK   
@@ -25,9 +25,11 @@ https://selectel.ru/blog/how-to-improve-seo/?utm_source=youtube.com&utm_medium=r
 
 
 
+
+
 // thumbnails text
-Khamit Arkayev
-Self Introduction 
+Khamit Arkayev   카밋 아르카예프
+Self Introduction 자기 소개
 
 
 //  HEADER
@@ -38,56 +40,54 @@ Türkçe
 한국어
 
 // NAV MENU
-Gallery
-Video
-Links
-Contacts
+Gallery   이미지
+Video     비디오
+Links     링크
+Contacts  연락처
 
 
 // INFO BLOCK
 
-Full Name:  Khamit Arkayev
+Full Name:  이름   Khamit Arkayev   카밋 아르카예프
 			
-City:     Zhezkazgan, Kazakhstan
+City:  도시     Zhezkazgan, 제즈카즈간,  Kazakhstan  카자흐스탄
 		
-Age:      39
+Age: 나이      39
 
-Height:    180см
+Height: 키   180см
 
-Weight:     65кg
+Weight: 체중    65кg
 
-Hair:      Dark-Brown
+Hair: 머리카락     Dark-Brown  진한 갈색
 
-Eyes:       Green
+Eyes: 눈      Green  녹색
 
-Skills:     MMA, Taekwondo, Boxing
+Skills: 스킬     MMA, 태권도, 복싱
 		
 
 
 // SECTION IMAGES
 
-section title:      Images
+section title:      Images  이미지
 
-		Self Introduction
+		Self Introduction   자기 소개
 
-		Demo reels
+		Demo reels  데모 비디오
 
 
 // SECTION LINKS
 
-Links
+Links  링크
 
 
 // FORM  
  
- contact me
+ contact me    문의하기
 
- Name
+ Name  이름
 
  Email
 
- Type your text here
+ Type your text here   메시지
 
- send
-				
-		
+ send   보내기
