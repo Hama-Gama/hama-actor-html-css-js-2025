@@ -4,14 +4,18 @@
 Документация до шаблону: https://start-template.ru 
 //------------------------------------------------------------------------------
 
-complete turkce
-link head & header to each langugage
-upload to netlify
-
 
 1.
 MAKE SELF INTRO (30-40sec) 10 DUBLEY  
 (ru, kz, en, ko, tr)
+
+
+
+grammar korean kg
+grammar english head, title
+image optimization, slider reduce size and dimension.
+
+
 
 2.
 watermark  website link

@@ -16,6 +16,8 @@ ENGLISH
     <meta property="og:image" content="https://raw.githubusercontent.com/Hama-Gama/hama-actor-html-css-js-2025/refs/heads/master/src/img/og-image/omg-image-head-html.jpg">
 
 
+// DON'T RENAME GIT REPO OG:IMAGE
+
 head title: Khamit Arkayev, Actor
 
 
