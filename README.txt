@@ -12,9 +12,6 @@ MAKE SELF INTRO (30-40sec) 10 DUBLEY
 
 
 
-
-
-
 2.
 watermark  website link
 

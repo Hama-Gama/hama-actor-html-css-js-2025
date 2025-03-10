@@ -50,6 +50,53 @@ contactForm.addEventListener('submit', sendEmail)
 
 
 //*============= LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR =============*//
+
+// LATEST VERSION 
+
+// let languageBrowser = window.navigator.language;
+// let languageIso = languageBrowser.substr(0, 2);
+// console.log(languageIso);
+
+// switch(languageIso){
+// 	case "en":
+// 		if (languageIso == "en")
+// 			window.location.href = 'https://hama-actor.com'
+// 		break;
+
+// 	case "ru":
+// 		if (languageIso == "ru")
+// 			window.location.href = 'https://hama-actor.com/ru/'
+// 		break;
+
+// 	case "ko":
+// 		if (languageIso == "ko")
+// 			window.location.href = 'https://hama-actor.com/ko/'
+// 		break;
+
+// 	case "tr":
+// 		if (languageIso == "tr")
+// 			window.location.href = 'https://hama-actor.com/tr/'
+// 		break;
+
+// 	default:
+// 			window.location.href = 'https://hama-actor.com'
+// }
+
+
+
+
+
+
+
+
+
+
+
+// const langEn = window.location.href = "http://192.168.88.117:8080/";
+// console.log("langRu");
+
+
+
 // let language = window.navigator.language
 // let languageFirstTwo = language.substr(0, 2)
 
@@ -58,8 +105,6 @@ contactForm.addEventListener('submit', sendEmail)
 // } else {
 // 	window.location.href = 'https://hama-actor.com'
 // }
-
-
 
 
 
