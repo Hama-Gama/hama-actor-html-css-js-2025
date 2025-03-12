@@ -5,18 +5,20 @@
 //------------------------------------------------------------------------------
 
 
-1.
-MAKE SELF INTRO (30-40sec) 10 DUBLEY  
-(ru, kz, en, ko, tr)
 
 
+
+
+10 MARTA 
+deploy website
+NADINE CHOI
 
 
 2.
-watermark  website link
+Upload all stuff google drive
 
 3.
-Upload all stuff google drive
+watermark  website link
 
 4.
 Resume
@@ -34,18 +36,12 @@ English - fluent (second Language)
 образование
 
 
-10 MARTA 
-buy domain
-deploy website
-NADINE CHOI
 
+ссылки на YouTube 
 
-
-
-
-
-
-1. demo reel 2021
+DEMO-REEL
+1. 
+demo reel 2021
 https://youtu.be/48fg-DhTFz0
 
 2.
@@ -61,11 +57,22 @@ Strela Behind the Scene
 https://youtu.be/byK7Qjqrp2U
 
 
+INTRO
+на русском:
+https://youtu.be/X-Cejs-Jt-M
+
+
+на казахском:
+https://youtu.be/Lxdc5KGuk0Y
+
+
+English:
+https://youtu.be/ZyJp2n2zm5g
 
 
 
-
-
+<a id="tr" hreflang="tr" class="tr_select" href="../tr.html">Türkçe</a>
+<a id="ko" hreflang="ko" class="ko_select" href="../ko.html">한국어</a>
 
 
 But... I don't want to target countries, I want to target languages
