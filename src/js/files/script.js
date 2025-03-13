@@ -3,7 +3,7 @@ import { isMobile } from './functions.js'
 // Подключение списка активных модулей
 import { flsModules } from './modules.js'
 
-//*======================= EMAIL JS =============*//
+//   ====================== EMAIL JS =============
 // contactForm.addEventListener('submit', sendEmail)
 const contactForm = document.getElementById('contact-form'),
 	contactMessage = document.getElementById('contact-message')
@@ -14,10 +14,10 @@ const sendEmail = e => {
 	// serviceID - templateID - #form - publicKey
 	emailjs
 		.sendForm(
-			'service_ok1mnvc',
+			'service_702ihz4',
 			'template_jgocn84',
 			'#contact-form',
-			'HmXoLUR2g_LMtHyfp'
+			'dI8XP1k6s3A86DZKN'
 		)
 		.then(
 			() => {
@@ -45,11 +45,11 @@ const sendEmail = e => {
 
 contactForm.addEventListener('submit', sendEmail)
 
-//*======================= EMAIL JS END =============*//
+//====================== EMAIL JS END =============
 
 
 
-//*============= LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR =============*//
+//=========== LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR ============
 
 // LATEST VERSION 
 
@@ -105,15 +105,6 @@ contactForm.addEventListener('submit', sendEmail)
 // }
 
 
-
-
-
-
-
-
-
-
-
 // const langEn = window.location.href = "http://192.168.88.117:8080/";
 // console.log("langRu");
 
@@ -152,4 +143,3 @@ contactForm.addEventListener('submit', sendEmail)
 // 	window.location.href = '.../src/index_en.html';
 // }
 
-//*======== END LANGUAGE AUTO DETECT USER'S BROWSER LANGUAGE NAVIGATOR =============*//
