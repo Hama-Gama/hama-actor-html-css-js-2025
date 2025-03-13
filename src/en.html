@@ -1,10 +1,9 @@
 <!doctype html>
-<html lang="ru">
-	@@include('html/_head_ru.htm',{ "title":"Хамит Аркаев, актер" })
+<html lang="en">
+	@@include('html/_head_en.htm',{ "title":"Khamit Arkayev, actor" })
 	<body>
 		<div class="wrapper">
-			<!-- @@include('html/_header.htm',{}) -->
-			@@include('html/_header_ru.htm',{})
+			@@include('html/_header_en.htm',{})
 			<main class="page">
 				<section
 					data-watch-threshold="0.5"
@@ -66,16 +65,21 @@
 					<div class="info__container">
 						<div class="info__title-body"></div>
 						<ul class="info__list">
-							<li class="info__item">Имя:<span>Хамит Аркаев</span></li>
-							<li class="info__item">Город:<span>Жезказган, Казахстан</span></li>
-							<li class="info__item">Возраст:<span>39</span></li>
-							<li class="info__item">Рост:<span>180см</span></li>
-							<li class="info__item">Вес:<span>65кг</span></li>
-							<li class="info__item">Волосы:<span>Темно-Коричневый</span></li>
-							<li class="info__item">Глаза:<span>зеленые</span></li>
+							<li class="info__item">Full Name:<span>Khamit Arkayev</span></li>
 							<li class="info__item">
-								Навыки:<span>MMA, Taekwondo, Бокс</span>
+								City:<span>Zhezkazgan, Kazakhstan</span>
 							</li>
+							<li class="info__item">Age:<span>39</span></li>
+							<li class="info__item">Height:<span>180см</span></li>
+							<li class="info__item">Weight:<span>65кg</span></li>
+							<li class="info__item">Hair:<span>Dark-Brown</span></li>
+							<li class="info__item">Eyes:<span>Green</span></li>
+							<li class="info__item">
+								Skills:<span>MMA, Taekwondo, Boxing</span>
+							</li>
+							<!-- <li class="info__item">
+								Languages<span>En, Ru, Kz, Tr, Kr</span>
+							</li> -->
 						</ul>
 					</div>
 				</section>
@@ -87,7 +91,7 @@
 					class="gallery"
 				>
 					<div class="gallery__container">
-						<h2 class="gallery__title title _icon-image-gallery">Фото</h2>
+						<h2 class="gallery__title title _icon-image-gallery">Images</h2>
 						<div data-gallery class="gallery__images">
 							<a
 								href="@img/gallery/khamit-arkayev-1.jpg"
@@ -175,33 +179,15 @@
 				<!-- Video -->
 				<section data-watch="navigator" class="video">
 					<div class="video__container">
-						<h2 class="video__title title _icon-video-player-intro">Визитка</h2>
+						<h2 class="video__title title _icon-video-player-intro">
+							Self Introduction
+						</h2>
 						<!-- Оболочка слайдера INTRO -->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
 							<div class="video__wrapper swiper-wrapper">
 								<!-- Слайд -->
-								<!-- INTRO #1 RUSSIAN -->
-								<div class="video__slide swiper-slide">
-									<div data-gallery class="video__block">
-										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
-										<a
-											data-lg-size="1280-720"
-											data-src="https://youtu.be/X-Cejs-Jt-M&mute=0"
-											data-poster="@img/thumb-intro/ru.jpg"
-											data-sub-html="<h4></h4>
-						                     		<p></p>"
-										>
-											<img
-												class="img-responsive"
-												src="@img/thumb-intro/ru.jpg"
-											/>
-										</a>
-										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
-									</div>
-								</div>
-
-								<!-- INTRO #2 ENGLISH -->
+								<!-- INTRO #1 ENGLISH -->
 								<div class="video__slide swiper-slide">
 									<div data-gallery class="video__block">
 										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
@@ -215,6 +201,26 @@
 											<img
 												class="img-responsive"
 												src="@img/thumb-intro/en.jpg"
+											/>
+										</a>
+										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
+									</div>
+								</div>
+
+								<!-- INTRO #2 RUSSIAN -->
+								<div class="video__slide swiper-slide">
+									<div data-gallery class="video__block">
+										<!-- YouTube Video  1  (disable-mute for YouTube video add to the end of link  &mute=0) --->
+										<a
+											data-lg-size="1280-720"
+											data-src="https://youtu.be/X-Cejs-Jt-M&mute=0"
+											data-poster="@img/thumb-intro/ru.jpg"
+											data-sub-html="<h4></h4>
+																		 <p></p>"
+										>
+											<img
+												class="img-responsive"
+												src="@img/thumb-intro/ru.jpg"
 											/>
 										</a>
 										<!-- YouTube Video 2 (disable-mute for YouTube video add to the end of link  &mute=0) --->
@@ -249,7 +255,7 @@
 											data-src="https://youtu.be/48fg-DhTFz0&mute=0"
 											data-poster="@img/thumb-intro/ko.jpg"
 											data-sub-html="<h4></h4>
-							                      	<p></p>"
+						                     		<p></p>"
 										>
 											<img
 												class="img-responsive"
@@ -259,7 +265,7 @@
 									</div>
 								</div> -->
 
-								<!-- INTRO #3 TURKCE -->
+								<!-- INTRO #5 TURKCE -->
 								<!-- <div class="video__slide swiper-slide">
 									<div data-gallery class="video__block">
 										<a
@@ -267,7 +273,7 @@
 											data-src="https://youtu.be/48fg-DhTFz0&mute=0"
 											data-poster="@img/thumb-intro/tr.jpg"
 											data-sub-html="<h4></h4>
-							                      	<p></p>"
+						                     		<p></p>"
 										>
 											<img
 												class="img-responsive"
@@ -277,14 +283,13 @@
 									</div>
 								</div> -->
 
-
 							</div>
 							<!-- Если нужна пагинация -->
 							<div class="swiper-pagination-video"></div>
 							<!-- Если требуется навигация (слева/справа) -->
 						</div>
 
-						<h2 class="video__title title _icon-reels">Шоу рил</h2>
+						<h2 class="video__title title _icon-reels">Demo reels</h2>
 						<!-- Оболочка слайдера SHOW REELS-->
 						<div class="video__slider swiper-video">
 							<!-- Движущаяся часть слайдера -->
@@ -378,7 +383,7 @@
 				<!-- Links -->
 				<section data-watch="navigator" class="links">
 					<div class="links__container">
-						<h2 class="links__title title _icon-links">Ссылки</h2>
+						<h2 class="links__title title _icon-links">Links</h2>
 						<div class="links__items">
 							<ul class="links__list">
 								<li class="links__item">
@@ -398,6 +403,15 @@
 										>Akteram.com</a
 									>
 								</li>
+
+								<!-- <li class="links__item">
+									<a
+										href="https://kinolift.com/portal/ru"
+										class="button"
+										target="_blank"
+										>KinoLift</a
+									>
+								</li> -->
 
 								<!-- <li class="links__item">
 									<a
@@ -448,7 +462,7 @@
 						<!-- Contact-form -->
 						<div class="form-container">
 							<div class="home__form">
-								<h2 class="form__title">Написать мне</h2>
+								<h2 class="form__title">contact me</h2>
 								<form action="" class="contact__form" id="contact-form">
 									<div class="contact__group">
 										<!-- Name -->
@@ -458,11 +472,11 @@
 												name="user_name"
 												class="contact__input"
 												id="name"
-												placeholder="Имя"
+												placeholder="Name"
 												maxlength="30"
 												required
 											/>
-											<label for="name" class="contact__label"> Имя </label>
+											<label for="name" class="contact__label"> Name </label>
 										</div>
 
 										<!-- Email -->
@@ -500,17 +514,17 @@
 												class="contact__input"
 												maxlength="300"
 												required
-												placeholder="Сообщение"
+												placeholder="Type your text here"
 											></textarea>
 											<label for="message" class="contact__label"
-												>Сообщение</label
+												>Type your text here</label
 											>
 										</div>
 
 										<div class="form__button">
 											<p class="form-error" id="contact-message"></p>
 											<button type="submit" class="contact__button button">
-												отправить
+												send
 											</button>
 										</div>
 									</div>
@@ -525,3 +539,4 @@
 		@@include('html/_js.htm',{})
 	</body>
 </html>
+
