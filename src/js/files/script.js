@@ -57,6 +57,28 @@ contactForm.addEventListener('submit', sendEmail)
 // let languageIso = languageBrowser.substr(0, 2);
 // console.log(languageIso);
 
+
+// if (languageIso == 'ru') {
+// 	window.location.href = 'https://hama-actor.com/ru/'
+// } else {
+// 	window.location.href = 'https://hama-actor.com'
+// }
+
+
+
+
+// switch(languageIso){
+// 	case "ru":
+// 		if (languageIso == "ru")
+// 			window.location.href = '/ru.html'
+// 		break;
+
+// 	default:
+// 			window.location.href = '/index.html'
+// }
+
+
+
 // switch(languageIso){
 // 	case "en":
 // 		if (languageIso == "en")
