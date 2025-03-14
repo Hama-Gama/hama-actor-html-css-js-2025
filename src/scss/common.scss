@@ -55,3 +55,4 @@
 section:not(:first-child) {
 	@include adaptiveValue("margin-bottom", 80, 70);
 }
+
